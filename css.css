@@ -1,0 +1,123 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: Outfit;
+}
+.container {
+  display: flex;
+  height: 1300px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-bg {
+  display: flex;
+  background-color: hsl(216, 50%, 16%);
+  width: 400px;
+  height: 700px;
+  border-radius: 13px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.164);
+}
+
+.equilibrium {
+  width: 330px;
+  height: 330px;
+  margin-left: 35px;
+  margin-top: 30px;
+  border-radius: 11px;
+  margin-bottom: 10px;
+}
+
+.title {
+  margin-bottom: 0px;
+  margin-left: 30px;
+  font-family: Outfit;
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.caption {
+  margin-bottom: 25px;
+  margin-left: 30px;
+  font-family: Outfit;
+  color: hsl(215, 51%, 70%);
+  width: 330px;
+  font-size: 21px;
+  font-weight: 300;
+}
+
+.eth-time {
+  margin-left: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 25px;
+  gap: 60px;
+  color: white;
+}
+
+.eth {
+  color: hsl(178, 100%, 50%);
+  font-size: 1rem;
+}
+
+.icon {
+  /* margin-right: auto; */
+}
+
+.small-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+p:last-child {
+  font-size: 1rem;
+}
+
+.three-days-left {
+  color: hsl(215, 51%, 70%);
+}
+
+hr {
+  width: 80%;
+  border-color: hsl(215, 32%, 27%);
+  background-color: hsl(215, 32%, 27%);
+  padding-bottom: 1px;
+  fill: white;
+  /* height: 5px; */
+  color: hsl(215, 32%, 27%);
+}
+
+.final-div {
+  display: flex;
+  margin: 10px 0 0 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.final-div span,
+.final-div p {
+  font-size: 20px;
+}
+
+.final-div p {
+  color: hsl(215, 51%, 70%);
+  margin-right: 40px;
+}
+
+.final-div span {
+  color: white;
+  margin-left: 1.5px;
+}
+
+.avatar {
+  width: 12%;
+  margin-right: 15px;
+  border: white solid 1px;
+  border-radius: 100px;
+}
